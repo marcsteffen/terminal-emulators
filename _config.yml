@@ -1,0 +1,11 @@
+title: "Terminal Emulators Comparison"
+description: "Fact-based comparison of modern terminal emulators"
+
+# Use a dark minimal theme
+theme: jekyll-theme-hacker
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
