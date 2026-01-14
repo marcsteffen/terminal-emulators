@@ -1,0 +1,6 @@
+title: "Terminal Emulators Comparison"
+description: "Comparison of terminal emulators"
+
+markdown: kramdown
+kramdown:
+  input: GFM

@@ -1,6 +1,6 @@
 # Terminal Emulators Comparison
 
-Comprehensive, fact-based comparison of modern terminal emulators. All data sourced from official documentation and benchmarks.
+Objective comparison of terminal emulators sourced from official documentation.
 
 ## Quick Comparison
 
@@ -10,35 +10,50 @@ Comprehensive, fact-based comparison of modern terminal emulators. All data sour
 | [Alacritty](terminals/alacritty.md) | ✅ OpenGL | ❌ | ❌ | ❌ | ✅ | ❌ | All |
 | [Kitty](terminals/kitty.md) | ✅ OpenGL | ✅ | ✅ | ✅ | ✅ | ✅ Kitty | macOS, Linux, BSD |
 
-📊 [View Full Comparison](comparison.md) | 📋 [Methodology](methodology.md)
+## Full Comparison
 
-## About
+### Features & Platform Support
 
-This site provides objective, fact-based comparisons of terminal emulators. All information is sourced from official documentation, GitHub repositories, and authoritative benchmark sources.
+| Terminal | GPU Accel | Ligatures | Tabs | Splits | True Color | Images | Protocol | macOS | Linux | Windows | BSD |
+|----------|-----------|-----------|------|--------|------------|--------|----------|-------|-------|---------|-----|
+| [Ghostty](terminals/ghostty.md) | ✅ Metal/OpenGL | ✅ | ✅ | ✅ | ✅ | ✅ | Kitty | ✅ | ✅ | 🚧 | ❌ |
+| [Alacritty](terminals/alacritty.md) | ✅ OpenGL | ❌ | ❌ | ❌ | ✅ | ❌ | - | ✅ | ✅ | ✅ | ✅ |
+| [Kitty](terminals/kitty.md) | ✅ OpenGL | ✅ | ✅ | ✅ | ✅ | ✅ | Kitty | ✅ | ✅ | ❌ | ✅ |
 
-**No opinions. No subjective reviews. Just hard facts.**
+### Performance
 
-### What We Compare
+| Terminal | Startup Time | Memory (Idle) | Input Latency | Throughput | License |
+|----------|-------------|---------------|---------------|------------|---------|
+| [Ghostty](terminals/ghostty.md) | <100ms (Linux: ~140ms) | ~50MB | Low (2ms scroll) | High | MIT |
+| [Alacritty](terminals/alacritty.md) | ~50ms (fastest) | ~30MB | Very Low | Leads vtebench | Apache-2.0 / MIT |
+| [Kitty](terminals/kitty.md) | ~100ms | Not specified | Best on Linux | 134.55 MB/s avg | GPL-3.0 |
 
-- **Features & Compatibility** - GPU acceleration, ligatures, tabs, splits, themes, image support
-- **Performance** - Startup time, memory usage, latency, throughput
-- **Platform Support** - macOS, Linux, Windows, BSD compatibility
-- **User Experience** - Configuration complexity, documentation quality, installation methods
+### Configuration & Customization
 
-## Categories
+| Terminal | Config Format | Themes Available | Custom Themes | Hot Reload |
+|----------|--------------|------------------|---------------|------------|
+| [Ghostty](terminals/ghostty.md) | Plain text (key=value) | 100+ | ✅ | ✅ |
+| [Alacritty](terminals/alacritty.md) | TOML | 234+ external | ✅ | ✅ |
+| [Kitty](terminals/kitty.md) | Text (kitty.conf) | 300+ | ✅ | ✅ |
 
-- [Full Comparison Table](comparison.md) - Side-by-side feature comparison
-- [Methodology](methodology.md) - How we collect and verify data
+### Installation
 
-## Contributing
+| Terminal | Homebrew | Package Managers | Binary Installer | Build from Source |
+|----------|----------|------------------|------------------|-------------------|
+| [Ghostty](terminals/ghostty.md) | ✅ macOS | ✅ Many distros | ✅ | ✅ (Zig) |
+| [Alacritty](terminals/alacritty.md) | ✅ macOS | ✅ All major distros | ✅ DMG/MSI | ✅ (Cargo/Rust) |
+| [Kitty](terminals/kitty.md) | ✅ macOS | ✅ All major distros | ✅ curl script | ✅ (Python/C) |
 
-Found incorrect information? Please open an issue with:
-- Which terminal and field is incorrect
-- Link to authoritative source (official docs, benchmarks)
-- Suggested correction
+### Development & Community
 
-Pull requests welcome! All facts must be sourced from official documentation.
+| Terminal | Language | First Release | Latest Version | GitHub Stars | Contributors |
+|----------|----------|---------------|----------------|--------------|--------------|
+| [Ghostty](terminals/ghostty.md) | Zig | Dec 2024 | 1.2.3 | 41.4k | 467+ |
+| [Alacritty](terminals/alacritty.md) | Rust | Jan 2017 | 0.16.1 (beta) | Not specified | Active |
+| [Kitty](terminals/kitty.md) | Python/C/Go | Oct 2017 | 0.45.0 | 30.7k | 373+ |
 
 ---
+
+**Legend:** ✅ Full support | ⚠️ Partial | ❌ Not supported | 🚧 In development
 
 **Last updated:** 2026-01-14
