@@ -1,6 +1,6 @@
 # Terminal Emulators Comparison
 
-Comparison of 13 terminal emulators from official documentation.
+Comparison of 20 terminal emulators from official documentation.
 
 **→ [View Comparison](https://marcsteffen.github.io/terminal-emulators/)**
 
@@ -9,6 +9,7 @@ Comparison of 13 terminal emulators from official documentation.
 ### Terminals Compared
 
 - Alacritty
+- Foot
 - Ghostty
 - GNOME Terminal
 - Hyper
@@ -16,11 +17,17 @@ Comparison of 13 terminal emulators from official documentation.
 - Kitty
 - Konsole
 - Rio
+- st
 - Tabby
 - Terminal.app
+- Terminator
+- Terminology
+- Tilix
+- urxvt
 - Warp
 - WezTerm
 - Windows Terminal
+- xterm
 
 ### Metrics
 
