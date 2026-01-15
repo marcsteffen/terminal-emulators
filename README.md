@@ -24,7 +24,16 @@ Comparison of 13 terminal emulators from official documentation.
 
 ### Metrics
 
-GPU acceleration, ligatures, tabs, splits, true color, image support, platform support, performance, configuration, development info
+- GPU acceleration
+- Ligatures
+- Tabs
+- Splits
+- True color
+- Image support
+- Platform support
+- Performance
+- Configuration
+- Development info
 
 ---
 
