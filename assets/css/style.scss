@@ -1,53 +1,61 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
   background-color: #000000 !important;
   color: #00ff00 !important;
-  font-family: "Courier New", Courier, monospace !important;
-  font-size: 14px;
+  font-family: "VT323", "Courier New", Courier, monospace !important;
+  font-size: 18px;
   line-height: 1.6;
   padding: 20px;
   max-width: 100%;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #00ff00 !important;
-  font-family: "Courier New", Courier, monospace !important;
+  font-family: "VT323", "Courier New", Courier, monospace !important;
   font-weight: normal;
   border-bottom: 1px solid #00ff00;
   padding-bottom: 5px;
   margin-top: 30px;
+  text-shadow: 0 0 8px rgba(0, 255, 0, 0.7);
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 32px;
   margin-top: 0;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 22px;
 }
 
 a {
   color: #00ffff !important;
   text-decoration: none;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+  transition: text-shadow 0.3s ease;
 }
 
 a:hover {
   text-decoration: underline;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.9);
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
   margin: 20px 0;
-  font-family: "Courier New", Courier, monospace !important;
-  font-size: 13px;
+  font-family: "VT323", "Courier New", Courier, monospace !important;
+  font-size: 16px;
 }
 
 table th {
@@ -56,6 +64,8 @@ table th {
   border: 1px solid #00ff00 !important;
   padding: 8px;
   text-align: left;
+  text-shadow: 0 0 6px rgba(0, 255, 0, 0.6);
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
 }
 
 table td {
@@ -66,13 +76,15 @@ table td {
 
 table tr:hover {
   background-color: #0a0a0a !important;
+  box-shadow: 0 0 8px rgba(0, 255, 0, 0.2);
 }
 
 code {
   background-color: #1a1a1a !important;
   color: #00ff00 !important;
   padding: 2px 4px;
-  font-family: "Courier New", Courier, monospace !important;
+  font-family: "VT323", "Courier New", Courier, monospace !important;
+  text-shadow: 0 0 4px rgba(0, 255, 0, 0.4);
 }
 
 pre {
@@ -81,17 +93,20 @@ pre {
   padding: 10px;
   overflow-x: auto;
   border: 1px solid #00ff00;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
 }
 
 hr {
   border: 0;
   border-top: 1px solid #00ff00;
   margin: 30px 0;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
 
 strong {
   color: #00ff00 !important;
   font-weight: bold;
+  text-shadow: 0 0 6px rgba(0, 255, 0, 0.6);
 }
 
 em {
@@ -104,4 +119,5 @@ blockquote {
   padding-left: 15px;
   color: #00ff00 !important;
   margin: 20px 0;
+  box-shadow: -3px 0 5px rgba(0, 255, 0, 0.3);
 }
