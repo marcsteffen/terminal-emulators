@@ -133,14 +133,14 @@ Click column headers to sort.
 |----------|----------------------|------------|
 | Alacritty | [alacritty.org](https://alacritty.org) | [github.com/alacritty/alacritty](https://github.com/alacritty/alacritty) |
 | Ghostty | [ghostty.org/docs](https://ghostty.org/docs) | [github.com/ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) |
-| GNOME Terminal | [help.gnome.org](https://help.gnome.org/users/gnome-terminal/stable/) | [Wikipedia](https://en.wikipedia.org/wiki/GNOME_Terminal) |
+| GNOME Terminal | [help.gnome.org](https://help.gnome.org/users/gnome-terminal/stable/) | [gitlab.gnome.org/GNOME/gnome-terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) |
 | Hyper | [hyper.is](https://hyper.is) | [github.com/vercel/hyper](https://github.com/vercel/hyper) |
 | iTerm2 | [iterm2.com](https://iterm2.com) | [github.com/gnachman/iTerm2](https://github.com/gnachman/iTerm2) |
 | Kitty | [sw.kovidgoyal.net/kitty](https://sw.kovidgoyal.net/kitty/) | [github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) |
 | Konsole | [konsole.kde.org](https://konsole.kde.org) | [github.com/KDE/konsole](https://github.com/KDE/konsole) |
 | Rio | [rioterm.com](https://rioterm.com) | [github.com/raphamorim/rio](https://github.com/raphamorim/rio) |
 | Tabby | [tabby.sh](https://tabby.sh) | [github.com/Eugeny/tabby](https://github.com/Eugeny/tabby) |
-| Terminal.app | [support.apple.com](https://support.apple.com/guide/terminal/) | [Wikipedia](https://en.wikipedia.org/wiki/Terminal_(macOS)) |
+| Terminal.app | [support.apple.com](https://support.apple.com/guide/terminal/) | Proprietary (no public repo) |
 | Warp | [warp.dev](https://www.warp.dev) | [github.com/warpdotdev/Warp](https://github.com/warpdotdev/Warp) |
 | WezTerm | [wezterm.org](https://wezterm.org) | [github.com/wezterm/wezterm](https://github.com/wezterm/wezterm) |
 | Windows Terminal | [learn.microsoft.com](https://learn.microsoft.com/en-us/windows/terminal/) | [github.com/microsoft/terminal](https://github.com/microsoft/terminal) |
