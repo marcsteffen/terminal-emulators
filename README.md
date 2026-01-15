@@ -1,19 +1,31 @@
 # Terminal Emulators Comparison
 
-Objective comparison of 13 terminal emulators sourced from official documentation.
+Comparison of 13 terminal emulators from official documentation.
 
-## View Comparison
-
-**https://marcsteffen.github.io/terminal-emulators/**
-
-Click column headers to sort by any metric.
+## [View Comparison](https://marcsteffen.github.io/terminal-emulators/)
 
 ---
 
-Terminals compared: Alacritty, Ghostty, GNOME Terminal, Hyper, iTerm2, Kitty, Konsole, Rio, Tabby, Terminal.app, Warp, WezTerm, Windows Terminal
+### Terminals Compared
 
-Metrics: GPU acceleration, ligatures, tabs, splits, true color, image support, platform support, performance, configuration, development info
+- Alacritty
+- Ghostty
+- GNOME Terminal
+- Hyper
+- iTerm2
+- Kitty
+- Konsole
+- Rio
+- Tabby
+- Terminal.app
+- Warp
+- WezTerm
+- Windows Terminal
 
-All data from official sources. ASCII-only format. Pure black terminal theme.
+### Metrics
 
-Last updated: 2026-01-14
+GPU acceleration, ligatures, tabs, splits, true color, image support, platform support, performance, configuration, development info
+
+---
+
+Last updated: January 14, 2026
