@@ -2,7 +2,7 @@
 
 Comparison of 13 terminal emulators from official documentation.
 
-## [View Comparison](https://marcsteffen.github.io/terminal-emulators/)
+**→ [View Comparison](https://marcsteffen.github.io/terminal-emulators/)**
 
 ---
 
