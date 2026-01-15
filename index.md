@@ -61,6 +61,31 @@ Click column headers to sort.
 | [Windows Terminal](terminals/windows-terminal.md) | [x] | [x] | [x] | [x] | [x] | [x] | Sixel | [ ] | [ ] | [x] | [ ] |
 | [xterm](terminals/xterm.md) | [ ] | [ ] | [x] | [ ] | [x] | [ ] | - | [ ] | [x] | [ ] | [x] |
 
+### Advanced Features
+
+| Terminal | Scrollback | Search | Multiplexer | Shell Integration | Hyperlinks | Session Restore | Privacy |
+|----------|------------|--------|-------------|-------------------|------------|----------------|---------|
+| [Alacritty](terminals/alacritty.md) | Limited | [ ] | External | [ ] | [x] | [ ] | No telemetry |
+| [Foot](terminals/foot.md) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
+| [Ghostty](terminals/ghostty.md) | Unlimited | [x] | External | [x] | [x] | [ ] | No telemetry |
+| [GNOME Terminal](terminals/gnome-terminal.md) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
+| [Hyper](terminals/hyper.md) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
+| [iTerm2](terminals/iterm2.md) | Unlimited | [x] | [x] | [x] | [x] | [x] | Optional analytics |
+| [Kitty](terminals/kitty.md) | Unlimited | [x] | External | [x] | [x] | [ ] | No telemetry |
+| [Konsole](terminals/konsole.md) | Unlimited | [x] | External | [ ] | [x] | [x] | No telemetry |
+| [Rio](terminals/rio.md) | Limited | [ ] | External | [ ] | [x] | [ ] | No telemetry |
+| [st](terminals/st.md) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
+| [Tabby](terminals/tabby.md) | Unlimited | [x] | External | [ ] | [x] | [x] | No telemetry |
+| [Terminal.app](terminals/terminal-app.md) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
+| [Terminator](terminals/terminator.md) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
+| [Terminology](terminals/terminology.md) | Unlimited | [x] | External | [ ] | [x] | [ ] | No telemetry |
+| [Tilix](terminals/tilix.md) | Limited | [x] | External | [ ] | [x] | [x] | No telemetry |
+| [urxvt](terminals/urxvt.md) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
+| [Warp](terminals/warp.md) | Unlimited | [x] | External | [x] | [x] | [x] | Requires account |
+| [WezTerm](terminals/wezterm.md) | Unlimited | [x] | [x] | [x] | [x] | [x] | No telemetry |
+| [Windows Terminal](terminals/windows-terminal.md) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
+| [xterm](terminals/xterm.md) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
+
 ### Performance
 
 | Terminal | Startup | Memory (Idle) | Latency | Throughput | License |
