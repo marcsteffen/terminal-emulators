@@ -9,22 +9,44 @@ Objective comparison sourced from official documentation.
 
 Click column headers to sort.
 
-## Quick Comparison
+<nav class="sticky-nav">
+  <a href="#quick-comparison">Quick</a>
+  <a href="#features-platform">Features</a>
+  <a href="#advanced-features">Advanced</a>
+  <a href="#performance">Performance</a>
+  <a href="#configuration">Config</a>
+  <a href="#development">Development</a>
+  <a href="#sources">Sources</a>
+  <button id="back-to-top" style="display: none;">↑ Top</button>
+</nav>
+
+<div class="search-container">
+  <input type="text" id="terminal-search" placeholder="Search terminals (name, platform, feature)..." />
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-platform="all">All</button>
+    <button class="filter-btn" data-platform="macOS">macOS</button>
+    <button class="filter-btn" data-platform="Linux">Linux</button>
+    <button class="filter-btn" data-platform="Windows">Windows</button>
+    <button class="filter-btn" data-platform="BSD">BSD</button>
+  </div>
+</div>
+
+## Quick Comparison {#quick-comparison}
 
 | Terminal | GPU | Ligatures | Tabs | Splits | True Color | Images | Platform |
 |----------|-----|-----------|------|--------|------------|--------|----------|
 | [Alacritty](https://github.com/alacritty/alacritty) | [x] OpenGL | [ ] | [ ] | [ ] | [x] | [ ] | macOS, Linux, Windows, BSD |
 | [Foot](https://codeberg.org/dnkl/foot) | [ ] CPU | [x] | [ ] | [ ] | [x] | [x] Sixel | Linux (Wayland) |
 | [Ghostty](https://ghostty.org) | [x] Metal/OpenGL | [x] | [x] | [x] | [x] | [x] Kitty | macOS, Linux |
-| [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [ ] | [x] | [x] | [ ] | [!] | [ ] | Linux |
+| [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [ ] | [x] | [x] | [ ] | [x] | [ ] | Linux |
 | [Hyper](https://hyper.is) | [!] Electron | [x] | [x] | [x] | [x] | [ ] | macOS, Linux, Windows |
 | [iTerm2](https://iterm2.com) | [x] Metal | [x] | [x] | [x] | [x] | [x] iTerm2 | macOS |
 | [Kitty](https://sw.kovidgoyal.net/kitty/) | [x] OpenGL | [x] | [x] | [x] | [x] | [x] Kitty | macOS, Linux, BSD |
 | [Konsole](https://konsole.kde.org) | [ ] | [x] | [x] | [x] | [x] | [ ] | Linux, BSD |
 | [Rio](https://rioterm.com) | [x] WebGPU | [x] | [x] | [x] | [x] | [x] Sixel | macOS, Linux, Windows |
 | [st](https://st.suckless.org) | [ ] | [x] | [ ] | [ ] | [x] | [ ] | Linux, BSD |
-| [Tabby](https://tabby.sh) | [x] | [x] | [x] | [x] | [x] | [ ] | macOS, Linux, Windows |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | [x] | [x] | [x] | [x] | [x] | [ ] | macOS |
+| [Tabby](https://tabby.sh) | [x] Electron | [x] | [x] | [x] | [x] | [ ] | macOS, Linux, Windows |
+| [Terminal.app](https://support.apple.com/guide/terminal/) | [x] Metal | [x] | [x] | [x] | [x] | [ ] | macOS |
 | [Terminator](https://gnome-terminator.org) | [ ] | [x] | [x] | [x] | [x] | [ ] | Linux |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | [!] Optional | [x] | [x] | [x] | [x] | [x] Images/Video | Linux, BSD |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | [ ] | [x] | [x] | [x] | [x] | [ ] | Linux |
@@ -36,22 +58,22 @@ Click column headers to sort.
 
 ## Full Comparison
 
-### Features & Platform Support
+### Features & Platform Support {#features-platform}
 
 | Terminal | GPU Accel | Ligatures | Tabs | Splits | True Color | Images | Protocol | macOS | Linux | Windows | BSD |
 |----------|-----------|-----------|------|--------|------------|--------|----------|-------|-------|---------|-----|
 | [Alacritty](https://github.com/alacritty/alacritty) | [x] OpenGL | [ ] | [ ] | [ ] | [x] | [ ] | - | [x] | [x] | [x] | [x] |
 | [Foot](https://codeberg.org/dnkl/foot) | [ ] CPU | [x] | [ ] | [ ] | [x] | [x] | Sixel | [ ] | [x] | [ ] | [ ] |
 | [Ghostty](https://ghostty.org) | [x] Metal/OpenGL | [x] | [x] | [x] | [x] | [x] | Kitty | [x] | [x] | [~] | [ ] |
-| [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [ ] | [x] | [x] | [ ] | [!] | [ ] | - | [ ] | [x] | [ ] | [ ] |
+| [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [ ] | [x] | [x] | [ ] | [x] | [ ] | - | [ ] | [x] | [ ] | [ ] |
 | [Hyper](https://hyper.is) | [!] Electron | [x] | [x] | [x] | [x] | [ ] | - | [x] | [x] | [x] | [ ] |
 | [iTerm2](https://iterm2.com) | [x] Metal | [x] | [x] | [x] | [x] | [x] | iTerm2 | [x] | [ ] | [ ] | [ ] |
 | [Kitty](https://sw.kovidgoyal.net/kitty/) | [x] OpenGL | [x] | [x] | [x] | [x] | [x] | Kitty | [x] | [x] | [ ] | [x] |
 | [Konsole](https://konsole.kde.org) | [ ] | [x] | [x] | [x] | [x] | [ ] | - | [ ] | [x] | [ ] | [x] |
 | [Rio](https://rioterm.com) | [x] WebGPU | [x] | [x] | [x] | [x] | [x] | Sixel | [x] | [x] | [x] | [ ] |
 | [st](https://st.suckless.org) | [ ] | [x] | [ ] | [ ] | [x] | [ ] | - | [ ] | [x] | [ ] | [x] |
-| [Tabby](https://tabby.sh) | [x] | [x] | [x] | [x] | [x] | [ ] | - | [x] | [x] | [x] | [ ] |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | [x] | [x] | [x] | [x] | [x] | [ ] | - | [x] | [ ] | [ ] | [ ] |
+| [Tabby](https://tabby.sh) | [x] Electron | [x] | [x] | [x] | [x] | [ ] | - | [x] | [x] | [x] | [ ] |
+| [Terminal.app](https://support.apple.com/guide/terminal/) | [x] Metal | [x] | [x] | [x] | [x] | [ ] | - | [x] | [ ] | [ ] | [ ] |
 | [Terminator](https://gnome-terminator.org) | [ ] | [x] | [x] | [x] | [x] | [ ] | - | [ ] | [x] | [ ] | [ ] |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | [!] Optional | [x] | [x] | [x] | [x] | [x] | Images/Video | [ ] | [x] | [ ] | [x] |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | [ ] | [x] | [x] | [x] | [x] | [ ] | - | [ ] | [x] | [ ] | [ ] |
@@ -61,7 +83,7 @@ Click column headers to sort.
 | [Windows Terminal](https://github.com/microsoft/terminal) | [x] | [x] | [x] | [x] | [x] | [x] | Sixel | [ ] | [ ] | [x] | [ ] |
 | [xterm](https://invisible-island.net/xterm/) | [ ] | [ ] | [x] | [ ] | [x] | [ ] | - | [ ] | [x] | [ ] | [x] |
 
-### Advanced Features
+### Advanced Features {#advanced-features}
 
 | Terminal | Scrollback | Search | Multiplexer | Shell Integration | Hyperlinks | Session Restore | Privacy |
 |----------|------------|--------|-------------|-------------------|------------|----------------|---------|
@@ -70,23 +92,23 @@ Click column headers to sort.
 | [Ghostty](https://ghostty.org) | Unlimited | [x] | External | [x] | [x] | [ ] | No telemetry |
 | [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
 | [Hyper](https://hyper.is) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
-| [iTerm2](https://iterm2.com) | Unlimited | [x] | [x] | [x] | [x] | [x] | Optional analytics |
+| [iTerm2](https://iterm2.com) | Unlimited | [x] | [ ] | [x] | [x] | [x] | Optional analytics |
 | [Kitty](https://sw.kovidgoyal.net/kitty/) | Unlimited | [x] | External | [x] | [x] | [ ] | No telemetry |
 | [Konsole](https://konsole.kde.org) | Unlimited | [x] | External | [ ] | [x] | [x] | No telemetry |
 | [Rio](https://rioterm.com) | Limited | [ ] | External | [ ] | [x] | [ ] | No telemetry |
 | [st](https://st.suckless.org) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
 | [Tabby](https://tabby.sh) | Unlimited | [x] | External | [ ] | [x] | [x] | No telemetry |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
+| [Terminal.app](https://support.apple.com/guide/terminal/) | Limited | [x] | External | [ ] | [x] | [x] | No telemetry |
 | [Terminator](https://gnome-terminator.org) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | Unlimited | [x] | External | [ ] | [x] | [ ] | No telemetry |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | Limited | [x] | External | [ ] | [x] | [x] | No telemetry |
 | [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
-| [Warp](https://www.warp.dev) | Unlimited | [x] | External | [x] | [x] | [x] | Requires account |
+| [Warp](https://www.warp.dev) | Unlimited | [x] | External | [x] | [x] | [x] | Cloud account (sends telemetry) |
 | [WezTerm](https://wezterm.org) | Unlimited | [x] | [x] | [x] | [x] | [x] | No telemetry |
 | [Windows Terminal](https://github.com/microsoft/terminal) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
 | [xterm](https://invisible-island.net/xterm/) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
 
-### Performance
+### Performance {#performance}
 
 | Terminal | Startup | Memory (Idle) | Latency | Throughput | License |
 |----------|---------|---------------|---------|------------|---------|
@@ -111,7 +133,7 @@ Click column headers to sort.
 | [Windows Terminal](https://github.com/microsoft/terminal) | Fast | Moderate | Low | Good | MIT |
 | [xterm](https://invisible-island.net/xterm/) | Fast | Very Low | Very Low | Good | X11 (MIT-style) |
 
-### Configuration
+### Configuration {#configuration}
 
 | Terminal | Format | Themes | Custom | Hot Reload |
 |----------|--------|--------|--------|------------|
@@ -136,7 +158,7 @@ Click column headers to sort.
 | [Windows Terminal](https://github.com/microsoft/terminal) | JSON | Many | [x] | [x] |
 | [xterm](https://invisible-island.net/xterm/) | .Xresources | Minimal | [x] | [ ] |
 
-### Development
+### Development {#development}
 
 | Terminal | Language | First Release | Latest | Stars | License |
 |----------|----------|---------------|--------|-------|---------|
@@ -194,7 +216,7 @@ Click column headers to sort.
 
 **Coverage:** 20 terminal emulators compared across features, performance, configuration, and development.
 
-## Sources
+## Sources {#sources}
 
 | Terminal | Official Documentation | Repository |
 |----------|----------------------|------------|
@@ -220,33 +242,58 @@ Click column headers to sort.
 | xterm | [invisible-island.net/xterm](https://invisible-island.net/xterm/) | [invisible-island.net/xterm](https://invisible-island.net/xterm/xterm.html) |
 
 <script>
-// Make tables sortable
+// Make tables sortable with enhanced functionality
 document.addEventListener('DOMContentLoaded', function() {
   const tables = document.querySelectorAll('table');
 
-  tables.forEach(table => {
+  // Restore sort from URL hash
+  const hash = window.location.hash.substring(1);
+  const [tableIndex, columnIndex, direction] = hash.split('-');
+
+  tables.forEach((table, tIndex) => {
     const headers = table.querySelectorAll('th');
     const tbody = table.querySelector('tbody');
 
     if (!tbody) return;
 
-    headers.forEach((header, index) => {
+    headers.forEach((header, hIndex) => {
       header.style.cursor = 'pointer';
       header.style.userSelect = 'none';
+
+      // Restore sort if matches hash
+      if (tIndex == tableIndex && hIndex == columnIndex) {
+        header.classList.add(direction === 'asc' ? 'sort-asc' : 'sort-desc');
+        header.style.backgroundColor = '#0a0a0a';
+      }
 
       header.addEventListener('click', () => {
         const rows = Array.from(tbody.querySelectorAll('tr'));
         const isAscending = header.classList.contains('sort-asc');
 
-        // Remove sort classes from all headers
-        headers.forEach(h => h.classList.remove('sort-asc', 'sort-desc'));
+        // Remove sort classes and highlighting from all headers
+        headers.forEach(h => {
+          h.classList.remove('sort-asc', 'sort-desc');
+          h.style.backgroundColor = '#1a1a1a';
+        });
 
-        // Sort rows
+        // Highlight current sort column
+        header.style.backgroundColor = '#0a0a0a';
+
+        // Sort rows with improved logic
         rows.sort((a, b) => {
-          const aCell = a.cells[index].textContent.trim();
-          const bCell = b.cells[index].textContent.trim();
+          let aCell = a.cells[hIndex].textContent.trim();
+          let bCell = b.cells[hIndex].textContent.trim();
 
-          // Try numeric sort first
+          // Handle checkbox-style content
+          const checkboxOrder = { '[x]': 3, '[!]': 2, '[~]': 1, '[ ]': 0 };
+          const aCheck = checkboxOrder[aCell.substring(0, 3)];
+          const bCheck = checkboxOrder[bCell.substring(0, 3)];
+
+          if (aCheck !== undefined && bCheck !== undefined) {
+            return isAscending ? bCheck - aCheck : aCheck - bCheck;
+          }
+
+          // Try numeric sort
           const aNum = parseFloat(aCell.replace(/[^\d.-]/g, ''));
           const bNum = parseFloat(bCell.replace(/[^\d.-]/g, ''));
 
@@ -260,14 +307,60 @@ document.addEventListener('DOMContentLoaded', function() {
             : aCell.localeCompare(bCell);
         });
 
-        // Update header class
-        header.classList.add(isAscending ? 'sort-desc' : 'sort-asc');
+        // Update header class and URL hash
+        const newDirection = isAscending ? 'desc' : 'asc';
+        header.classList.add(`sort-${newDirection}`);
+        window.location.hash = `${tIndex}-${hIndex}-${newDirection}`;
 
         // Reorder rows
         rows.forEach(row => tbody.appendChild(row));
       });
     });
   });
+
+  // Search and filter functionality
+  const searchInput = document.getElementById('terminal-search');
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  let currentPlatform = 'all';
+
+  if (searchInput && filterButtons.length > 0) {
+    searchInput.addEventListener('input', filterTerminals);
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentPlatform = btn.dataset.platform;
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        filterTerminals();
+      });
+    });
+  }
+
+  function filterTerminals() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const tables = document.querySelectorAll('table');
+
+    tables.forEach(table => {
+      const rows = table.querySelectorAll('tbody tr');
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        const matchesSearch = text.includes(searchTerm);
+        const matchesPlatform = currentPlatform === 'all' || text.includes(currentPlatform.toLowerCase());
+
+        row.style.display = (matchesSearch && matchesPlatform) ? '' : 'none';
+      });
+    });
+  }
+
+  // Back to top button
+  const backToTop = document.getElementById('back-to-top');
+  if (backToTop) {
+    window.addEventListener('scroll', () => {
+      backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 });
 </script>
 
