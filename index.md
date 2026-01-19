@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Terminal Emulators Comparison
+title: Open Source Terminal Emulators Comparison
 ---
 
-# Terminal Emulators Comparison
+# Open Source Terminal Emulators Comparison
 
-Objective comparison sourced from official documentation.
+Objective comparison of open source terminals sourced from official documentation.
 
 Click column headers to sort.
 
@@ -46,12 +46,10 @@ Click column headers to sort.
 | [Rio](https://rioterm.com) | [x] WebGPU | [x] | [x] | [x] | [x] | [x] Sixel | macOS, Linux, Windows |
 | [st](https://st.suckless.org) | [ ] | [x] | [ ] | [ ] | [x] | [ ] | Linux, BSD |
 | [Tabby](https://tabby.sh) | [x] Electron | [x] | [x] | [x] | [x] | [ ] | macOS, Linux, Windows |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | [x] Metal | [x] | [x] | [x] | [x] | [ ] | macOS |
 | [Terminator](https://gnome-terminator.org) | [ ] | [x] | [x] | [x] | [x] | [ ] | Linux |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | [!] Optional | [x] | [x] | [x] | [x] | [x] Images/Video | Linux, BSD |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | [ ] | [x] | [x] | [x] | [x] | [ ] | Linux |
 | [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) | [ ] | [ ] | [ ] | [ ] | [x] | [ ] | Linux, BSD |
-| [Warp](https://www.warp.dev) | [x] | [x] | [x] | [x] | [x] | [x] | macOS, Linux, Windows |
 | [WezTerm](https://wezterm.org) | [x] WebGPU | [x] | [x] | [x] | [x] | [x] iTerm2 | macOS, Linux, Windows, BSD |
 | [Windows Terminal](https://github.com/microsoft/terminal) | [x] | [x] | [x] | [x] | [x] | [x] Sixel | Windows |
 | [xterm](https://invisible-island.net/xterm/) | [ ] | [ ] | [x] | [ ] | [x] | [ ] | Linux, BSD |
@@ -73,12 +71,10 @@ Click column headers to sort.
 | [Rio](https://rioterm.com) | [x] WebGPU | [x] | [x] | [x] | [x] | [x] | Sixel | [x] | [x] | [x] | [ ] |
 | [st](https://st.suckless.org) | [ ] | [x] | [ ] | [ ] | [x] | [ ] | - | [ ] | [x] | [ ] | [x] |
 | [Tabby](https://tabby.sh) | [x] Electron | [x] | [x] | [x] | [x] | [ ] | - | [x] | [x] | [x] | [ ] |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | [x] Metal | [x] | [x] | [x] | [x] | [ ] | - | [x] | [ ] | [ ] | [ ] |
 | [Terminator](https://gnome-terminator.org) | [ ] | [x] | [x] | [x] | [x] | [ ] | - | [ ] | [x] | [ ] | [ ] |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | [!] Optional | [x] | [x] | [x] | [x] | [x] | Images/Video | [ ] | [x] | [ ] | [x] |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | [ ] | [x] | [x] | [x] | [x] | [ ] | - | [ ] | [x] | [ ] | [ ] |
 | [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) | [ ] | [ ] | [ ] | [ ] | [x] | [ ] | - | [ ] | [x] | [ ] | [x] |
-| [Warp](https://www.warp.dev) | [x] | [x] | [x] | [x] | [x] | [x] | - | [x] | [x] | [x] | [ ] |
 | [WezTerm](https://wezterm.org) | [x] WebGPU | [x] | [x] | [x] | [x] | [x] | iTerm2 | [x] | [x] | [x] | [x] |
 | [Windows Terminal](https://github.com/microsoft/terminal) | [x] | [x] | [x] | [x] | [x] | [x] | Sixel | [ ] | [ ] | [x] | [ ] |
 | [xterm](https://invisible-island.net/xterm/) | [ ] | [ ] | [x] | [ ] | [x] | [ ] | - | [ ] | [x] | [ ] | [x] |
@@ -98,12 +94,10 @@ Click column headers to sort.
 | [Rio](https://rioterm.com) | Limited | [ ] | External | [ ] | [x] | [ ] | No telemetry |
 | [st](https://st.suckless.org) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
 | [Tabby](https://tabby.sh) | Unlimited | [x] | External | [ ] | [x] | [x] | No telemetry |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | Limited | [x] | External | [ ] | [x] | [x] | No telemetry |
 | [Terminator](https://gnome-terminator.org) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | Unlimited | [x] | External | [ ] | [x] | [ ] | No telemetry |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | Limited | [x] | External | [ ] | [x] | [x] | No telemetry |
 | [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
-| [Warp](https://www.warp.dev) | Unlimited | [x] | External | [x] | [x] | [x] | Cloud account (sends telemetry) |
 | [WezTerm](https://wezterm.org) | Unlimited | [x] | [x] | [x] | [x] | [x] | No telemetry |
 | [Windows Terminal](https://github.com/microsoft/terminal) | Limited | [x] | External | [ ] | [x] | [ ] | No telemetry |
 | [xterm](https://invisible-island.net/xterm/) | Limited | [ ] | External | [ ] | [ ] | [ ] | No telemetry |
@@ -123,12 +117,10 @@ Click column headers to sort.
 | [Rio](https://rioterm.com) | Fast | Not spec | Low | Good | MIT |
 | [st](https://st.suckless.org) | Very Fast | Minimal | Very Low | High | MIT |
 | [Tabby](https://tabby.sh) | Moderate | High | Moderate | Good | MIT |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | Fast | Low | Low | Good | Proprietary |
 | [Terminator](https://gnome-terminator.org) | Moderate | Moderate | Moderate | Moderate | GPL-2.0 |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | Fast | Moderate | Low | Good | BSD-2-Clause |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | Moderate | Moderate | Moderate | Moderate | MPL-2.0 |
 | [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) | Very Fast | Very Low | Low | High | GPL-3.0 |
-| [Warp](https://www.warp.dev) | Fast | Not spec | Low | Good | Proprietary |
 | [WezTerm](https://wezterm.org) | ~150ms | ~80MB | Low | Good | MIT |
 | [Windows Terminal](https://github.com/microsoft/terminal) | Fast | Moderate | Low | Good | MIT |
 | [xterm](https://invisible-island.net/xterm/) | Fast | Very Low | Very Low | Good | X11 (MIT-style) |
@@ -148,12 +140,10 @@ Click column headers to sort.
 | [Rio](https://rioterm.com) | TOML | Many | [x] | [x] |
 | [st](https://st.suckless.org) | C header | Patches | [x] | [ ] |
 | [Tabby](https://tabby.sh) | GUI/YAML | Many | [x] | [x] |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | GUI/plist | Built-in | [x] | [ ] |
 | [Terminator](https://gnome-terminator.org) | Config file | Built-in | [x] | [ ] |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | Config file | Built-in | [x] | [ ] |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | GUI/JSON | Built-in | [x] | [ ] |
 | [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) | .Xresources | External | [x] | [ ] |
-| [Warp](https://www.warp.dev) | GUI | Built-in | [x] | [x] |
 | [WezTerm](https://wezterm.org) | Lua | Many | [x] | [x] |
 | [Windows Terminal](https://github.com/microsoft/terminal) | JSON | Many | [x] | [x] |
 | [xterm](https://invisible-island.net/xterm/) | .Xresources | Minimal | [x] | [ ] |
@@ -173,12 +163,10 @@ Click column headers to sort.
 | [Rio](https://rioterm.com) | Rust | 2023 | 0.2.x | Active | MIT |
 | [st](https://st.suckless.org) | C | 2009 | Active | Moderate | MIT |
 | [Tabby](https://tabby.sh) | TypeScript | 2017 | Active | 61k+ | MIT |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | Objective-C | 2001 | Active | N/A | Proprietary |
 | [Terminator](https://gnome-terminator.org) | Python | 2007 | Active | Moderate | GPL-2.0 |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | C (EFL) | 2012 | Active | Moderate | BSD-2-Clause |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | D | 2015 | Active | Moderate | MPL-2.0 |
 | [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) | C/Perl | 1997 | Low activity | N/A | GPL-3.0 |
-| [Warp](https://www.warp.dev) | Rust | 2021 | Active | N/A | Proprietary |
 | [WezTerm](https://wezterm.org) | Rust | 2018 | Active | High | MIT |
 | [Windows Terminal](https://github.com/microsoft/terminal) | C++ | 2019 | Active | 95k+ | MIT |
 | [xterm](https://invisible-island.net/xterm/) | C | 1984 | Active | N/A | X11 (MIT-style) |
@@ -198,12 +186,10 @@ Click column headers to sort.
 | [Rio](https://rioterm.com) | WebGPU rendering, browser support via WebAssembly, RetroArch shaders |
 | [st](https://st.suckless.org) | Suckless philosophy, minimal code, configured via C source, extremely lightweight |
 | [Tabby](https://tabby.sh) | SSH/serial client, Zmodem support, connection manager |
-| [Terminal.app](https://support.apple.com/guide/terminal/) | macOS default, lightweight, solid basics |
 | [Terminator](https://gnome-terminator.org) | GTK-based, tiling/splitting focus, broadcast input to multiple panes |
 | [Terminology](https://www.enlightenment.org/about-terminology.md) | EFL-based, media support (images/video/music), translucent background |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | GTK3 tiling, session management, Quake mode, drag-and-drop layouts |
 | [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) | Perl extensible, client/daemon model, extremely lightweight |
-| [Warp](https://www.warp.dev) | AI-powered (Warp AI), modern block-based UI, team collaboration |
 | [WezTerm](https://wezterm.org) | Multiplexer built-in, Lua scripting, cross-platform consistency |
 | [Windows Terminal](https://github.com/microsoft/terminal) | Microsoft official, WSL integration, GPU text rendering |
 | [xterm](https://invisible-island.net/xterm/) | Classic X11 terminal, VT420 emulation, highly configurable, battle-tested since 1984 |
@@ -214,7 +200,7 @@ Click column headers to sort.
 
 **Last updated:** 2026-01-14
 
-**Coverage:** 20 terminal emulators compared across features, performance, configuration, and development.
+**Coverage:** 18 open source terminal emulators compared across features, performance, configuration, and development.
 
 ## Sources {#sources}
 
@@ -231,12 +217,10 @@ Click column headers to sort.
 | Rio | [rioterm.com](https://rioterm.com) | [github.com/raphamorim/rio](https://github.com/raphamorim/rio) |
 | st | [st.suckless.org](https://st.suckless.org) | [git.suckless.org/st](https://git.suckless.org/st) |
 | Tabby | [tabby.sh](https://tabby.sh) | [github.com/Eugeny/tabby](https://github.com/Eugeny/tabby) |
-| Terminal.app | [support.apple.com](https://support.apple.com/guide/terminal/) | Proprietary (no public repo) |
 | Terminator | [gnome-terminator.org](https://gnome-terminator.org) | [github.com/gnome-terminator/terminator](https://github.com/gnome-terminator/terminator) |
 | Terminology | [enlightenment.org](https://www.enlightenment.org/about-terminology.md) | [github.com/borisfaure/terminology](https://github.com/borisfaure/terminology) |
 | Tilix | [gnunn1.github.io/tilix-web](https://gnunn1.github.io/tilix-web/) | [github.com/gnunn1/tilix](https://github.com/gnunn1/tilix) |
 | urxvt | [wiki.archlinux.org](https://wiki.archlinux.org/index.php/Rxvt-unicode) | [cvs.schmorp.de](http://cvs.schmorp.de/rxvt-unicode/) |
-| Warp | [warp.dev](https://www.warp.dev) | [github.com/warpdotdev/Warp](https://github.com/warpdotdev/Warp) |
 | WezTerm | [wezterm.org](https://wezterm.org) | [github.com/wezterm/wezterm](https://github.com/wezterm/wezterm) |
 | Windows Terminal | [learn.microsoft.com](https://learn.microsoft.com/en-us/windows/terminal/) | [github.com/microsoft/terminal](https://github.com/microsoft/terminal) |
 | xterm | [invisible-island.net/xterm](https://invisible-island.net/xterm/) | [invisible-island.net/xterm](https://invisible-island.net/xterm/xterm.html) |

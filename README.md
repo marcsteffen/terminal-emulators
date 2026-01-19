@@ -1,6 +1,6 @@
-# Terminal Emulators Comparison
+# Open Source Terminal Emulators Comparison
 
-Comparison of 20 terminal emulators from official documentation.
+Comparison of 18 open source terminal emulators from official documentation.
 
 **→ [View Comparison](https://marcsteffen.github.io/terminal-emulators/)**
 
@@ -19,12 +19,10 @@ Comparison of 20 terminal emulators from official documentation.
 - Rio
 - st
 - Tabby
-- Terminal.app
 - Terminator
 - Terminology
 - Tilix
 - urxvt
-- Warp
 - WezTerm
 - Windows Terminal
 - xterm
